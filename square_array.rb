@@ -5,7 +5,7 @@ def square_array(array)
     count = 0 
     if count < num.length
       square_array = num * num
-      count +=
+      count +=1
     end
       return square_array
   end
