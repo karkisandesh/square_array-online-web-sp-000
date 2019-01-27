@@ -4,7 +4,7 @@ def square_array(array)
     
     count = 0 
     if count < array.length-1
-      square_arrays = num * num
+      square_arrays << num * num
       count +=1
     end
       return square_arrays
