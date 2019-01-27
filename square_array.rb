@@ -1,10 +1,7 @@
 def square_array(array)
-  square_arrays = []
+  new_array = []
   array.each do |num|
-    
-    count = 0 
-    if count < array.length-1
-      square_arrays << num * num
+    new_array << num * num
       count +=1
     end
       return square_arrays
